@@ -30,6 +30,7 @@ body{
     align-items: center;
     margin: 30px;
     color: #6A3131;
+    text-align: center;
 }
 
 .place-container{
@@ -92,5 +93,13 @@ a{
         padding: 8px;
         border-radius: 15px;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 600px){
+    .other{
+        & #pilihan-lain{
+            width: 300px;
+        }
     }
 }
