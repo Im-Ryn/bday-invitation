@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Sushi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pilihSushi.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>nah saatnya sushi silahkan pilih</h1>
+        <p>baca dulu sampai bawah yaa</p>
+    </div>
+    <div class="place-container">
+        <div class="card">
+            <img src="Assets/image 13.svg" alt="">
+            <h3>SUSHI TEI</h3>
+            <a><p class="button-pilih" onclick="pilih('SUSHI TEI')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/image 14.svg" alt="">
+            <h3>GENKI SUSHI</h3>
+            <a><p class="button-pilih" onclick="pilih('GENKI SUSHI')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/image 15.svg" alt="">
+            <h3>SUSHIGO!</h3>
+            <a><p class="button-pilih" onclick="pilih('SUSHIGO!')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/image 17.svg" alt="">
+            <h3>GION SUSHI</h3>
+            <a><p class="button-pilih" onclick="pilih('GION SUSHI')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/Group 13.svg" alt="">
+            <h3>ICHIBAN SUSHI</h3>
+            <a><p class="button-pilih" onclick="pilih('ICHIBAN SUSHI')">Mau Ini</p></a>
+        </div>
+    </div>
+    <div class="other">
+        <p class="desc">nah misal ada tempat makan sushi lain silahkan tulis aja</p>
+        <h3>Tulis Pilihan Lain</h3>
+        <textarea name="pilihan-lain" id="pilihan-lain"></textarea>
+        <a><p class="button-pilih" onclick="submitCustom()">Mau Ini</p></a>
+    </div>  
+    <script src="page3.js"></script>
+</body>
+</html>

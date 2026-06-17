@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>another-place</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pilihan-lain-page2.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Nah mau kemana nih pilihan lain</h1>
+        <p>baca dulu sampai bawah yaa</p>
+    </div>
+    <div class="place-container">
+        <div class="card">
+            <img src="Assets/image 8.svg" alt="">
+            <h3>Skyrink Jakarta</h3>
+            <p class="desc">ice skating lesgo, katanya asik sih ini, gatau ya kamu pernah coba atau engga</p>
+            <a><p class="button-pilih" onclick="pilih('Skyrink Jakarta')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/image 9.svg" alt="">
+            <h3>BXsea Oceanarium</h3>
+            <p class="desc">nah aquarium, kita melihat kehidupan laut, ada show juga kayak ngasih makan otter</p>
+            <a><p class="button-pilih" onclick="pilih('BXsea Oceanarium')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/image 10.svg" alt="">
+            <h3>Jakarta Aquarium</h3>
+            <p class="desc">aquarium juga sih hehe, cuma ini di CP jadi bisa sekalian kita makan, ada show juga gabisa rekam tapi</p>
+            <a><p class="button-pilih" onclick="pilih('Jakarta Aquarium')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/image 11.svg" alt="">
+            <h3>Blok M</h3>
+            <p class="desc">kita kulineran di blok M, ada rekomen tiktok kayak 20 lokasi kulineran sepertinya asik</p>
+            <a><p class="button-pilih" onclick="pilih('Blok M')">Mau Ini</p></a>
+        </div>
+        <div class="card">
+            <img src="Assets/image 6.svg" alt="">
+            <h3>Rustic Market</h3>
+            <p class="desc">nah ini, sebenrnya menarik cuma katanya beberapa orang kecewa, cuma gas aja sih kataku</p>
+            <a><p class="button-pilih" onclick="pilih('Rustic')">Mau Ini</p></a>
+        </div>
+    </div>
+    <div class="other">
+        <p class="desc">nahh kalau misal ada kepengen ke suatu tempat, tapi gaada di list, boleh nih di tulis di bawah</p>
+        <h3>Tulis Pilihan Lain</h3>
+        <textarea name="pilihan-lain" id="pilihan-lain"></textarea>
+        <a><p class="button-pilih" onclick="submitCustom()">Mau Ini</p></a>
+    </div>
+    <script src="page2.js"></script>
+</body>
+</html>
